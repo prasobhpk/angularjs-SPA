@@ -1,16 +1,15 @@
 {
-  "name": "AccioCode AngularJS Tutorial",
-  "version": "1.0.0",
-  "homepage": "https://github.com/colorfest/angularjs",
+  "name": "angularjs-SPA",
+  "version": "0.0.0",
+  "homepage": "https://github.com/prasobhpk/angularjs-SPA",
   "authors": [
-    "AccioCode"
+    "prasobhpk <prasobhpk@gmail.com>"
   ],
-  "description": "AccioCode tutorial series for AngularJS",
+  "description": "AngularJS Single page application",
   "main": "index.html",
   "keywords": [
-    "acciocode",
     "angularjs",
-    "grunt",
+    "gulp",
     "bower",
     "nodejs",
     "npm",
@@ -27,14 +26,12 @@
     "tests"
   ],
   "dependencies": {
-    "angularjs": "~1.3.2",
-    "angular-route": "~1.3.2",
-    "bootstrap": "~3.3.0",
-    "modernizr": "~2.8.3",
-    "jquery": "~2.1.1"
+    "angularjs": "~1.4.5",
+    "angular-route": "~1.4.5",
+    "bootstrap": "~3.3.5",
+    "modernizr": "~2.8.3"
   },
   "devDependencies": {
-    "angular-route": "~1.3.7",
-    "angular-animate": "~1.3.10"
+    "angular-animate": "~1.4.5"
   }
 }
