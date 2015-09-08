@@ -17,8 +17,7 @@ module.exports = {
     },
     sass: {
         src: srcAssets + '/**/*.{sass,scss}',
-        dest: developmentAssets + '/css',
-        //dest: developmentAssets,
+        dest: developmentAssets,
         options: {
             noCache: true,
             compass: false,
@@ -49,8 +48,8 @@ module.exports = {
         }
     },
     base64: {
-        src: developmentAssets + '/css/*.css',
-        dest: developmentAssets + '/css',
+        src: developmentAssets + '/**/*.css',
+        dest: developmentAssets,
         //src: developmentAssets + '/*.css',
         //dest: developmentAssets + '/',
         options: {
@@ -73,7 +72,7 @@ module.exports = {
     concat: {
         js: {
             src: srcAssets + '/**/*.js',
-            dest: developmentAssets + '/js/',
+            dest: developmentAssets,
             //dest: developmentAssets + '/',
             options: {}
         },
@@ -83,22 +82,22 @@ module.exports = {
                 vendor + '/bootstrap/dist/js/bootstrap.min.js',
                 vendor + '/angularjs/angular.min.js',
                 vendor + '/angular-route/angular-route.min.js'],
-            dest: developmentAssets + '/js/',
+            dest: developmentAssets,
             //dest: developmentAssets + '/',
             options: {}
         },
         css: {
             src: [vendor + '/bootstrap/dist/css/bootstrap.min.css',
-                developmentAssets + '/css/*.css'
+                developmentAssets + '/**/*.css'
             ],
-            dest: developmentAssets + '/css/'
+            dest: developmentAssets
         }
 
     },
     optimize: {
         css: {
-            src: developmentAssets + '/css/*.css',
-            dest: productionAssets + '/css/',
+            src: developmentAssets + '/**/*.css',
+            dest: productionAssets ,
             //src: developmentAssets + '/*.css',
             //dest: productionAssets + '/',
             options: {
@@ -106,15 +105,15 @@ module.exports = {
             }
         },
         js: {
-            src: developmentAssets + '/js/*.js',
-            dest: productionAssets + '/js/',
+            src: developmentAssets + '/**/*.js',
+            dest: productionAssets ,
             //src: developmentAssets + '/*.js',
             //dest: productionAssets + '/',
             options: {}
         },
         images: {
-            src: developmentAssets + '/images/**/*.{jpg,jpeg,png,gif}',
-            dest: productionDist + '/images/',
+            src: developmentAssets + '/**/*.{jpg,jpeg,png,gif}',
+            dest: productionDist,
             //src: developmentAssets + '/**/*.{jpg,jpeg,png,gif}',
             //dest: productionAssets + '/',
             options: {
@@ -134,7 +133,7 @@ module.exports = {
     copy: {
         images: {
             src: srcAssets + '/**/*.{jpg,jpeg,png,webp}',
-            dest: developmentAssets + '/images'
+            dest: developmentAssets
         },
         html: {
             src: srcAssets + '/**/*.html',
@@ -152,9 +151,7 @@ module.exports = {
     revision: {
         src: {
             assets: [
-                productionAssets + '/css/*.css',
-                productionAssets + '/js/*.js'/*,
-                 productionAssets + '/images/**/
+                productionAssets + '/**/*.{css,js}'
             ],
             base: productionAssets
         },

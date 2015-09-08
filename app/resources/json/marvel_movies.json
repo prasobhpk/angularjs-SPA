@@ -8,7 +8,7 @@
 					{
 						"id": 0,
 						"title": "Iron Man",
-						"thumbnail": "images/layouts/common/images/thumbnails/ironman1.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/ironman1.jpg",
 						"date" : "2008-05-02",
 						"cast": "Robert Downey Jr., Gwyneth Paltrow, Jon Favreau, Terrence Howard, Jeff Bridges",
 						"director": "Jon Favreau",
@@ -20,7 +20,7 @@
 					{
 						"id": 1,
 						"title": "The Incredible Hulk",
-						"thumbnail": "images/layouts/common/images/thumbnails/incrediblehulk.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/incrediblehulk.jpg",
 						"date" : "2008-06-13",
 						"cast": "Edward Norton, Liv Tyler, William Hurt, Tim Roth",
 						"director": "Louis Leterrier",
@@ -32,7 +32,7 @@
 					{
 						"id": 2,
 						"title": "Iron Man 2",
-						"thumbnail": "images/layouts/common/images/thumbnails/ironman2.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/ironman2.jpg",
 						"date": "2010-05-07",
 						"cast": "Robert Downey Jr., Scarlett Johansson, Jon Favreau, Gwyneth Paltrow, Don Cheadle, Mickey Rourke, Sam Rockwell",
 						"director": "Jon Favreau",
@@ -44,7 +44,7 @@
 					{
 						"id": 3,
 						"title": "Thor",
-						"thumbnail": "images/layouts/common/images/thumbnails/thor.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/thor.jpg",
 						"date": "2011-05-06",
 						"cast": "Chris Hemsworth, Tom Hiddleston, Natalie Portman, Anthony Hopkins, Kat Dennings",
 						"director": "Kenneth Branagh",
@@ -56,7 +56,7 @@
 					{
 						"id": 4,
 						"title": "Captain America: The First Avenger",
-						"thumbnail": "images/layouts/common/images/thumbnails/captainamerica.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/captainamerica.jpg",
 						"date": "2011-07-22",
 						"cast": "Chris Evans, Hayley Atwell, Sebastian Stan, Hugo Weaving, Dominic Cooper",
 						"director": "Joe Johnston",
@@ -68,7 +68,7 @@
 					{
 						"id": 5,
 						"title": "The Avengers",
-						"thumbnail": "images/layouts/common/images/thumbnails/theavengers.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/theavengers.jpg",
 						"date": "2012-05-04",
 						"cast": "Scarlett Johansson, Robert Downey Jr., Chris Evans, Chris Hemsworth, Mark Ruffalo, Jeremy Renner, Samuel L. Jackson, Cobie Smulders, Tom Hiddleston, Clark Gregg",
 						"director": "Joss Whedon",
@@ -85,7 +85,7 @@
 					{
 						"id": 6,
 						"title": "Iron Man 3",
-						"thumbnail": "images/layouts/common/images/thumbnails/ironman3.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/ironman3.jpg",
 						"date" : "2013-05-03",
 						"cast": "Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, Ashley Hamilton, Jon Favreau, Guy Pearce, Ben Kingsley",
 						"director": "Shane Black",
@@ -97,7 +97,7 @@
 					{
 						"id": 7,
 						"title": "Thor: The Dark World",
-						"thumbnail": "images/layouts/common/images/thumbnails/thor2.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/thor2.jpg",
 						"date": "2013-11-08",
 						"cast": "Chris Hemsworth, Tom Hiddleston, Natalie Portman, Christopher Eccleston, Zachary Levi, Idris Elba, Rene Russo, Sir Anthony Hopkins",
 						"director": "Alan Taylor",
@@ -109,7 +109,7 @@
 					{
 						"id": 8,
 						"title": "Captain America: The Winter Soldier",
-						"thumbnail": "images/layouts/common/images/thumbnails/captainamerica2.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/captainamerica2.jpg",
 						"date": "2014-04-04",
 						"cast": "Chris Evans, Scarlett Johansson, Anthony Mackie, Sebastian Stan, Robert Redford, Cobie Smulders, Frank Grillo, Georges St-Pierre, Samuel L. Jackson",
 						"director": "Anthony and Joe Russo",
@@ -121,7 +121,7 @@
 					{
 						"id": 9,
 						"title": "Guardians of the Galaxy",
-						"thumbnail": "images/layouts/common/images/thumbnails/guardiansofthegalaxy.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/guardiansofthegalaxy.jpg",
 						"date": "2014-08-01",
 						"cast": "Chris Pratt, Zoe Saldana, James Gunn, Vin Diesel, Dave Bautista, Bradley Cooper, Lee Pace, Karen Gillan, Michael Rooker, Benicio del Toro, Glenn Close",
 						"director": "James Gunn",
@@ -133,7 +133,7 @@
 					{
 						"id": 10,
 						"title": "Avengers: Age of Ultron",
-						"thumbnail": "images/layouts/common/images/thumbnails/avengers2.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/avengers2.jpg",
 						"date": "2015-05-01",
 						"cast": "Robert Downey Jr., Scarlett Johansson, Mark Ruffalo, Chris Evans, Chris Hemsworth, James Spader, Elizabeth Olsen, Jeremy Renner, Paul Bettany, Aaron Taylor-Johnson, Samuel L. Jackson, Don Cheadle, Andy Serkis, Claudia Kim",
 						"director": "Joss Whedon",
@@ -145,7 +145,7 @@
 					{
 						"id": 11,
 						"title": "Ant-Man",
-						"thumbnail": "images/layouts/common/images/thumbnails/ant-man.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/ant-man.jpg",
 						"date": "2015-07-17",
 						"cast": "Paul Rudd, Michael Douglas, Evangeline Lilly, Corey Stoll, Michael Pena",
 						"director": "Peyton Reed",
@@ -164,7 +164,7 @@
 					{
 						"id": 12,
 						"title": "Captain America: Civil War",
-						"thumbnail": "images/layouts/common/images/thumbnails/captainamerica3.jpg",
+						"thumbnail": "layouts/common/images/thumbnails/captainamerica3.jpg",
 						"date": "2016-05-06",
 						"cast": "Chris Evans, Robert Downey Jr., Scarlett Johansson, Daniel Bruhl, Chadwick Boseman, Elizabeth Olsen, Paul Bettany, Sebastian Stan, Jeremy Renner, Paul Rudd, Anthony Mackie, Don Cheadle",
 						"director": "Joe and Anthony Russo",
@@ -177,7 +177,7 @@
 					{
 						"id": 13,
 						"title": "Doctor Strange",
-						"thumbnail": "images/layouts/common/images/thumbnails/blankthumbnail.png",
+						"thumbnail": "layouts/common/images/thumbnails/blankthumbnail.png",
 						"date": "2016-11-04",
 						"cast": "Benedict Cumberbatch",
 						"director": "Scott Derrickson",
@@ -189,7 +189,7 @@
 					{
 						"id": 14,
 						"title": "Guardians of the Galaxy 2",
-						"thumbnail": "images/layouts/common/images/thumbnails/blankthumbnail.png",
+						"thumbnail": "layouts/common/images/thumbnails/blankthumbnail.png",
 						"date": "2017-05-05",
 						"cast": "n/a",
 						"director": "James Gunn",
@@ -201,7 +201,7 @@
 					{
 						"id": 15,
 						"title": "Spider-Man",
-						"thumbnail": "images/layouts/common/images/thumbnails/blankthumbnail.png",
+						"thumbnail": "layouts/common/images/thumbnails/blankthumbnail.png",
 						"date": "2017-07-28",
 						"cast": "n/a",
 						"director": "n/a",
@@ -213,7 +213,7 @@
 					{
 						"id": 16,
 						"title": "Thor: Ragnarok",
-						"thumbnail": "images/layouts/common/images/thumbnails/blankthumbnail.png",
+						"thumbnail": "layouts/common/images/thumbnails/blankthumbnail.png",
 						"date": "2017-11-03",
 						"cast": "Chris Hemsworth, Tom Hiddleston, Idris Elba",
 						"director": "n/a",
@@ -225,7 +225,7 @@
 					{
 						"id": 17,
 						"title": "Avengers: Infinity War Part 1",
-						"thumbnail": "images/layouts/common/images/thumbnails/blankthumbnail.png",
+						"thumbnail": "layouts/common/images/thumbnails/blankthumbnail.png",
 						"date": "2018-05-04",
 						"cast": "n/a",
 						"director": "Anthony and Joe Russo",
@@ -237,7 +237,7 @@
 					{
 						"id": 18,
 						"title": "Black Panther",
-						"thumbnail": "images/layouts/common/images/thumbnails/blankthumbnail.png",
+						"thumbnail": "layouts/common/images/thumbnails/blankthumbnail.png",
 						"date": "2018-07-06",
 						"cast": "Chadwick Boseman, Andy Serkis",
 						"director": "n/a",
@@ -249,7 +249,7 @@
 					{
 						"id": 19,
 						"title": "Captain Marvel",
-						"thumbnail": "images/layouts/common/images/thumbnails/blankthumbnail.png",
+						"thumbnail": "layouts/common/images/thumbnails/blankthumbnail.png",
 						"date": "2018-11-02",
 						"cast": "n/a",
 						"director": "n/a",
@@ -261,7 +261,7 @@
 					{
 						"id": 20,
 						"title": "Avengers: Infinity War Part 2",
-						"thumbnail": "images/layouts/common/images/thumbnails/blankthumbnail.png",
+						"thumbnail": "layouts/common/images/thumbnails/blankthumbnail.png",
 						"date": "2019-05-03",
 						"cast": "n/a",
 						"director": "Anthony and Joe Russo",
@@ -273,7 +273,7 @@
 					{
 						"id": 21,
 						"title": "Inhumans",
-						"thumbnail": "images/layouts/common/images/thumbnails/blankthumbnail.png",
+						"thumbnail": "layouts/common/images/thumbnails/blankthumbnail.png",
 						"date": "2019-07-12",
 						"cast": "n/a",
 						"director": "n/a",
