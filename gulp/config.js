@@ -77,11 +77,15 @@ module.exports = {
             options: {}
         },
         vendorJs: {
-            src: [vendor + '/modernizr/modernizr.js',
+            src: [
+                vendor + '/modernizr/modernizr.js',
                 vendor + '/jquery/dist/jquery.min.js',
                 vendor + '/bootstrap/dist/js/bootstrap.min.js',
                 vendor + '/angularjs/angular.min.js',
-                vendor + '/angular-route/angular-route.min.js'],
+                vendor + '/angular-route/angular-route.min.js',
+                vendor + '/firebase/firebase.js',
+                vendor + '/angularfire/dist/angularfire.min.js'
+            ],
             dest: developmentAssets,
             //dest: developmentAssets + '/',
             options: {}
@@ -97,7 +101,7 @@ module.exports = {
     optimize: {
         css: {
             src: developmentAssets + '/**/*.css',
-            dest: productionAssets ,
+            dest: productionAssets,
             //src: developmentAssets + '/*.css',
             //dest: productionAssets + '/',
             options: {
@@ -106,7 +110,7 @@ module.exports = {
         },
         js: {
             src: developmentAssets + '/**/*.js',
-            dest: productionAssets ,
+            dest: productionAssets,
             //src: developmentAssets + '/*.js',
             //dest: productionAssets + '/',
             options: {}

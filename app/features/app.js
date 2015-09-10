@@ -15,6 +15,7 @@
     MCU.Filters = {};
     MCU.Controllers = {};
     MCU.Directives = {};
+    MCU.StorePath = "https://pk-movies.firebaseio.com/MCU";
 
 
 }(window.MCU = window.MCU || {}));
@@ -29,6 +30,6 @@
      *
      * This Module initializes the MCU Angular module.
      **/
-    Modules.MCU = angular.module("mcu", ['ngRoute']);
+    Modules.MCU = angular.module("mcu", ['ngRoute','firebase']);
 
 }(MCU.Modules = MCU.Modules || {} ));
