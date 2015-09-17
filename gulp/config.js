@@ -83,8 +83,9 @@ module.exports = {
                 vendor + '/bootstrap/dist/js/bootstrap.min.js',
                 vendor + '/angularjs/angular.min.js',
                 vendor + '/angular-route/angular-route.min.js',
-                vendor + '/firebase/firebase.js',
-                vendor + '/angularfire/dist/angularfire.min.js'
+                vendor + '/angular-resource/angular-resource.min.js'
+                //vendor + '/firebase/firebase.js',
+                //vendor + '/angularfire/dist/angularfire.min.js'
             ],
             dest: developmentAssets,
             //dest: developmentAssets + '/',

@@ -30,6 +30,6 @@
      *
      * This Module initializes the MCU Angular module.
      **/
-    Modules.MCU = angular.module("mcu", ['ngRoute','firebase']);
+    Modules.MCU = angular.module("mcu", ['ngRoute','ngResource']);
 
 }(MCU.Modules = MCU.Modules || {} ));
